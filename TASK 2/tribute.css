@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body {
+    color: #333;;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #666;
+    text-align: center;
+    padding: 1em;
+}
+h2 {
+    color: #666;
+    text-align: center;
+    font-size: 1rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.container {
+    padding: 0 25px;
+  margin: 0 150px;
+  ul{
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    &:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -20px;
+      height: 100%;
+      border: 1px dashed #aaa;
+    }
+  }
+    
+}
+
+.box{
+    margin: 50px 0;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.2);
+    width: 400px;
+    position: relative;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px rgba(100, 100, 100, 0.3);
+    >span{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -20px;
+      height: 100%;
+      border: 1px solid #ccc;
+      &:before,
+      &:after{
+        content: "";
+        position: absolute;
+        left: -7px;
+        width: 10px;
+        height: 10px;
+        border: 2px solid #ccc;
+        background: #01579B;
+        border-radius: 100%;
+      }
+      &:before{
+        top: -12px;
+      }
+      &:after{
+        top: 100%;
+      }
+    } 
+    .info{
+      margin: 15px 0;
+    }
+    .time{
+      span{
+        position: absolute;
+        font-size: 0.7rem;
+        color: #aaa;
+        &:first-child{
+          top: -10px;
+          left: -70px;
+        }
+        &:last-child{
+          top: 100%;
+          left: -70px;
+        }
+      }
+    }
+  }
+  .paragraphs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 500px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #666;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
