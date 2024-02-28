@@ -24,7 +24,7 @@ img {
     margin: 0 auto;
 }
 .container {
-    padding: 0 25px;
+  padding: 0 25px;
   margin: 0 150px;
   ul{
     position: relative;
@@ -106,8 +106,6 @@ img {
     padding: 20px;
     box-sizing: border-box;
 }
-
-
 
 footer {
     background-color: #333;
