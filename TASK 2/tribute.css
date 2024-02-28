@@ -11,17 +11,22 @@ header {
     color: #666;
     text-align: center;
     padding: 1em;
+    text-shadow: 2px 2px 4px #000000;
+
 }
 h2 {
     color: #666;
     text-align: center;
     font-size: 1rem;
+    text-shadow: 2px 2px 4px #000000;
+
 }
 img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 .container {
   padding: 0 25px;
@@ -52,7 +57,7 @@ img {
     letter-spacing: 2px;
     border-radius: 5px;
     box-sizing: border-box;
-    box-shadow: 1px 1px 3px rgba(100, 100, 100, 0.3);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     >span{
       content: "";
       position: absolute;
