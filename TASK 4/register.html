@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form id="registerForm">
+            <label for="newUsername"><i class="fa fa-user-circle-o"></i> Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+            <label for="newPassword"><i class="fa fa-lock"></i> Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+            <input type="submit" value="Register">
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+</html>
