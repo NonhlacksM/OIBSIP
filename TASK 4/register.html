@@ -2,23 +2,32 @@
 <html>
 <head>
     <title>User Registration</title>
+    <!-- Include Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Include Google Fonts for custom font -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <!-- Include custom styles -->
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h2>Register</h2>
         <form id="registerForm">
+            <!-- Username field with icon -->
             <label for="newUsername"><i class="fa fa-user-circle-o"></i> Username:</label>
             <input type="text" id="newUsername" name="newUsername" required>
+            <!-- Password field with icon -->
             <label for="newPassword"><i class="fa fa-lock"></i> Password:</label>
             <input type="password" id="newPassword" name="newPassword" required>
+            <!-- Register button -->
             <input type="submit" value="Register">
         </form>
+        <!-- Display error or success message -->
         <div id="message"></div>
     </div>
 
+    <!-- Include register script -->
     <script src="register.js"></script>
 </body>
 </html>
+

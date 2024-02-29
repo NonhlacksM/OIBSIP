@@ -2,24 +2,34 @@
 <html>
 <head>
     <title>Login Authentication System</title>
+    <!-- Include Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Include Google Fonts for custom font -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <!-- Include custom styles -->
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h2>Login</h2>
         <form id="loginForm">
+            <!-- Username field with icon -->
             <label for="username"> <i class="fa fa-user-circle-o"></i>  Username:</label>
             <input type="text" id="username" name="username" required >
+            <!-- Password field with icon -->
             <label for="password"><i class="fa fa-lock"></i>  Password:</label>
             <input type="password" id="password" name="password" required>
+            <!-- Login button -->
             <input type="submit" value="Login">
         </form>
+        <!-- Display error message -->
         <div id="message"></div>
+        <!-- Link to register page -->
         <p>Don't have an account? <a href="register.html">Register here</a></p>
     </div>
 
+    <!-- Include login script -->
     <script src="login.js"></script>
 </body>
 </html>
+
