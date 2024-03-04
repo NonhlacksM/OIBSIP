@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container2{
+    display: flex;
+    position: relative;
+    justify-content: space-between; /* Push items to the sides */
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+    left: 5%;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    height: 30px;
+    border: none;
+    font-family: 'Ubuntu'; /* Use Ubuntu font */
+    margin: 10px auto;
+    border-radius: 15px; /* Rounded corners */
+    border-bottom: 2px solid #0a0a0a; 
+    background: transparent;
+}
+button {
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    font-size: large;
+    color: rgb(34, 160, 160);
+    background: transparent; /* Transparent background */
+    border-radius: 35px; /* Rounded corners */
+    cursor: pointer;
+}
+button:hover {   
+    color: rgb(34, 160, 160); /* Text color */
+    box-shadow: 0 0 5px rgb(34, 160, 160);
+}
+
+.task {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 12px;
+    width: 95%;
+    font-family: 'Ubuntu'; /* Use Ubuntu font */
+    border-bottom: 2px solid #0a0a0a;
+    border-radius: 15px;
+}
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+

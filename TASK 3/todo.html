@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>To-Do List <i class="fa fa-pencil-square-o"></i></h2>
+        <div class = "container2"> 
+            <input type="text" id="taskInput" placeholder="Enter task...">
+            <textarea id="descriptionInput" placeholder="Enter description..."></textarea>
+            <button onclick="addTask()">Add </button>
+        </div>
+        
+        <div class="filter-buttons">
+            <button onclick="showAllTasks()">All Tasks</button>
+            <button onclick="showPendingTasks()">Active Tasks</button>
+            <button onclick="showCompletedTasks()">Completed Tasks</button>
+        </div>
+        <h3>Tasks <i class="fa fa-tasks"></i></h3>
+        <ul id="tasksList"></ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
+
+
+
